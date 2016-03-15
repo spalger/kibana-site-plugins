@@ -8,8 +8,7 @@
     "start": "plugin-helpers start",
     "test:server": "plugin-helpers test_server",
     "test:browser": "plugin-helpers test_browser",
-    "build": "plugin-helpers build",
-    "postinstall": "plugin-helpers postinstall"
+    "build": "./scripts/build.sh"
   },
   "devDependencies": {
     "@elastic/eslint-config-kibana": "0.0.2",
