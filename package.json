@@ -1,6 +1,6 @@
 {
   "name": "site_plugins",
-  "version": "5.0.0-beta1",
+  "version": "5.0.0-alpha4-SNAPSHOT",
   "description": "A temporary _site plugins wrapper",
   "main": "index.js",
   "scripts": {
