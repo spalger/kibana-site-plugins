@@ -14,6 +14,8 @@ To install the latest version of the site plugins plugin (I heard you like plugi
 
 Then, symlink all of your site plugins into the `installedPlugins/site_plugins/site_plugins` directory and restart the server. You should see your site plugin looking a lot like a Kibana app.
 
+***note:*** until https://github.com/elastic/kibana/pull/7551 is merged you will also need to delete the `optimize/bundles` directory in the kibana source whenever you add a new site plugin!
+
 ## development
 
 See the [kibana contributing guide](https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md) for instructions setting up your development environment. Once you have completed that, use the following npm tasks.
